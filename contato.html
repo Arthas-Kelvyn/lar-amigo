@@ -1,0 +1,108 @@
+<!doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lar Amigo - Contato</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css" />
+</head>
+<body>
+    <div id="cabecalho">
+        <h1>Lar Amigo</h1>
+        <p>Resgate, cuidado e adoção responsável</p>
+    </div>
+    <div id="menu">
+        <a href="index.html">Início</a>
+        <a href="adote.html">Adote</a>
+        <a href="contato.html">Contato</a>
+    </div>
+    <div id="conteudo">
+        <h2>Entre em contato</h2>
+        <p>
+            Se você deseja adotar um animal, realizar uma doação,
+            participar como voluntário ou conhecer melhor o trabalho
+            do Lar Amigo, preencha o formulário abaixo.
+        </p>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome"
+                    size="40" maxlength="60" />
+                </p>
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email" id="email"
+                    size="40" maxlength="60" />
+                </p>
+                <p>
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" name="telefone" id="telefone"
+                    size="20" maxlength="20" />
+                </p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Como deseja ajudar?</legend>
+                <p>
+                    <input type="radio" name="ajuda"
+                    id="adocao" value="adocao" />
+                    <label for="adocao">Quero adotar</label>
+                </p>
+                <p>
+                    <input type="radio" name="ajuda"
+                    id="doacao" value="doacao" />
+                    <label for="doacao">Quero realizar uma doação</label>
+                </p>
+                <p>
+                    <input type="radio" name="ajuda"
+                    id="voluntario" value="voluntario" />
+                    <label for="voluntario">Quero ser voluntário</label>
+                </p>
+                <p>
+                    <input type="radio" name="ajuda"
+                    id="apadrinhar" value="apadrinhar" />
+                    <label for="apadrinhar">Quero apadrinhar um animal</label>
+                </p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Adoção</legend>
+                <p>
+                    <label for="animal">Animal de interesse:</label>
+                    <select name="animal" id="animal">
+                        <option value="">Selecione</option>
+                        <option value="thor">Thor</option>
+                        <option value="mel">Mel</option>
+                        <option value="luna">Luna</option>
+                        <option value="simba">Simba</option>
+                    </select>
+                </p>
+            </fieldset>
+            <br />
+            <fieldset>
+                <legend>Mensagem</legend>
+                <p>
+                    <label for="mensagem">Escreva sua mensagem:</label>
+                </p>
+                <p>
+                    <textarea name="mensagem" id="mensagem"
+                    rows="6" cols="50"></textarea>
+                </p>
+            </fieldset>
+            <br />
+            <p>
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Limpar" />
+            </p>
+        </form>
+    </div>
+    <div id="rodape">
+        <p>Lar Amigo - Todos os direitos reservados</p>
+        <p>Kelvyn da Silva Costa - Matrícula: 202620396</p>
+        <p>Curso: Análise e Desenvolvimento de Sistemas</p>
+    </div>
+</body>
+</html>
